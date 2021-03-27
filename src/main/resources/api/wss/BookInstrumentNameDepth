@@ -1,0 +1,10 @@
+url: book.{instrument_name}.{depth}
+method:
+body: '{
+         "id": 11,
+         "method": "subscribe",
+         "params": {
+           "channels": ["book.ETH_CRO.150"]
+         },
+         "nonce": 1587523073344
+       }'

@@ -1,0 +1,22 @@
+--- # env config file
+config:
+  uat:
+    restv2:
+      url: https://uat-api.3ona.co/v2
+    restv1:
+      url: https://uat-api.3ona.co/v1
+    wssuser:
+      url: wss://uat-stream.3ona.co/v2/user
+    wssmarket:
+      url: wss://uat-stream.3ona.co/v2/market
+  live:
+    restv2:
+      url: https://api.crypto.com/v2
+    restv1:
+      url: https://api.crypto.com/v1
+    wssuser:
+      url: wss://stream.crypto.com/v2/user
+    wssmarket:
+      url: wss://stream.crypto.com/v2/market
+
+

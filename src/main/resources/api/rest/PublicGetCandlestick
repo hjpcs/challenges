@@ -1,0 +1,5 @@
+url: /public/get-candlestick
+method: get
+query:
+  instrument_name: ""
+  timeframe: ""
