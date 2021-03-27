@@ -212,5 +212,21 @@
             </properties>
         </profile>
 
+        <profile>
+            <id>uat-rest-v2</id>
+            <properties>
+                <pom.env>uat</pom.env>
+                <pom.type>restv2</pom.type>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>uat-rest-v1</id>
+            <properties>
+                <pom.env>uat</pom.env>
+                <pom.type>restv1</pom.type>
+            </properties>
+        </profile>
+
     </profiles>
 </project>
