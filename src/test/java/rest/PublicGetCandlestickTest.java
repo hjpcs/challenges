@@ -29,8 +29,7 @@ public class PublicGetCandlestickTest {
     @DataProvider
     public Object[][] dataProvider(Method method) {
         DataSource data = new DataSource();
-        Object[][] obj = data.dataSource().get(method.getName());
-        return obj;
+        return data.dataSource().get(method.getName());
     }
 
     @Test(dataProvider = "dataProvider", description = "check candlestick right or not")

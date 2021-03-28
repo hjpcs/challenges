@@ -11,6 +11,7 @@ public class DataSource {
      */
     public Map<String, Object[][]> dataSource() {
         Map<String, Object[][]> dataMap = new HashMap<>();
+
         Object[][] testGetCandlestick = new Object[][]{
                 {"BTC_USDT", "1m", 0, "public/get-candlestick"},
                 {"BTC_USDT", "5m", 0, "public/get-candlestick"},
@@ -26,6 +27,11 @@ public class DataSource {
                 {"BTC_USDT", "1M", 0, "public/get-candlestick"}
         };
         dataMap.put("testGetCandlestick", testGetCandlestick);
+
+        Object[][] testGetInstrumentBookInfo = new Object[][]{
+                {"11", "subscribe", "book.ETH_CRO.10", "1587523073344"}
+        };
+        dataMap.put("testGetInstrumentBookInfo", testGetInstrumentBookInfo);
         return dataMap;
     }
 

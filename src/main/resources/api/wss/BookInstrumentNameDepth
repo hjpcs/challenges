@@ -4,7 +4,7 @@ body: '{
          "id": 11,
          "method": "subscribe",
          "params": {
-           "channels": ["book.ETH_CRO.150"]
+           "channels": ["book.ETH_CRO.10"]
          },
          "nonce": 1587523073344
        }'
