@@ -21,7 +21,7 @@ public class EnvConf {
         Properties properties = new Properties();
         InputStream in = null;
         try {
-            in = this.getClass().getResourceAsStream("/config/Env.properties");
+            in = this.getClass().getResourceAsStream("/config/env.properties");
             properties.load(in);
             env = (String) properties.getProperty("env");
             type = (String) properties.getProperty("type");
