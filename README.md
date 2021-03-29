@@ -2,7 +2,9 @@
 - 使用"mvn clean test -P${profile-id}"命令运行即可，${profile-id}对应pom.xml文件中的配置
 - 如"mvn clean test -Plive-rest-v2"，"mvn clean test -Plive-wss-market"
 - 测试执行完毕后，执行"allure generate target/allure-results -c"即可生成测试报告
-
+# 项目地址
+- http://hjpcs.top:9998/job/challenges/
+- 由于部署的服务器资源和网络问题，可能会出现无法访问GitHub或服务挂掉的情况
 # 项目结构
 ```
 pom.xml - maven项目配置文件
@@ -30,7 +32,7 @@ src
 │       │   └── wss - wss接口定义
 │       │       └── BookInstrumentNameDepth
 │       └── config - 环境配置数据
-│           ├── Env.properties
+│           ├── env.properties
 │           └── EnvConfig.yaml
 └── test
     └── java
